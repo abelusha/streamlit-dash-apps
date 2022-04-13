@@ -47,3 +47,5 @@ def EDAAnalysis():
                 title=f'Scatter plot of {varibales[0]}-vs-{varibales[-1]}'
                 )
                 st.plotly_chart(fig)
+            else:
+                st.header('Work in progress!')
